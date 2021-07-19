@@ -15,8 +15,6 @@ tables = soup.find('table')
 src = driver.page_source # gets the html source of the page
 parser = BeautifulSoup(src,"html.parser") # initialize the parser and parse the source "src"
 
-
-
 # Month=""
 # Options=""
 # Chart=""
