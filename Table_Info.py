@@ -9,9 +9,9 @@ driver.get(
     "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.quotes.html#"
 )
 
-y = driver.find_element_by_css_selector(
+driver.find_element_by_css_selector(
     '[class="cmeButton cmeButtonPrimary btn primary').click()
-x = driver.find_element_by_css_selector('[class="btn primary load-all').click()
+driver.find_element_by_css_selector('[class="btn primary load-all').click()
 
 soup = BeautifulSoup(driver.page_source, "html.parser")
 tables = soup.find("table")
