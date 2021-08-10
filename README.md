@@ -1,7 +1,7 @@
 # CME_GROUP
 
 When:
-During the summer of 2021 at my internship with Scout Energy Patners
+During the summer of 2021 at my internship with Scout Energy Partners
 
 Task:
 Help take table information from CME Group website and extract it to CSV
